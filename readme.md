@@ -15,7 +15,7 @@ ap_name：触发日志中 AP 的名称，作为查询设备详情的依据。
 示例：
 ```python
 复制代码
-ap_info = get_ap_info_dynamically("A1-320-3")
+ap_info = get_ap_info_dynamically("test_ap")
 if ap_info:
     print(f"AP 名称: {ap_info['ap_name']}, 交换机名称: {ap_info['switch_name']}, 交换机 IP: {ap_info['switch_ip']}, 连接端口: {ap_info['connect_port']}")
 else:
